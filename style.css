@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    background-color: #deb6dc;
+    display: grid;
+    place-items: center;
+    font-family: "Belanosima", serif;
+    font-weight: 500;
+}
+
+h1 {
+    margin: 50px 0 50px 0;
+    font-size: 5rem;
+    color: #6c20b7;
+    -webkit-text-stroke: .5px black;
+    font-family: "Belanosima", serif;
+    font-weight: 600;
+}
+
+input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1.2rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #6c20b7;
+}
+
+.game-container {
+    height: 90%;
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    padding: 20px;
+    background: #deb6dc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(44, 34, 34, 0.2);
+}
+
+button {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 30px;
+}
+
+#cont {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 0;
+    background-color: rgb(206, 203, 203);
+    border-radius: 10px;
+
+}
+
+#find {
+    font-size: 1.6rem;
+    color: black;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 10px;
+    width: 250px;
+    background-color: #6c20b7;
+}
+
+#find:hover {
+    background-color: #461576;
+    transform: scale(1.05);
+}
+
+.btn:hover {
+    background-color: rgb(226, 228, 230);
+}
+
+button.enabled {
+    opacity: 1;
+}
+
+p {
+    font-size: 2rem;
+}
